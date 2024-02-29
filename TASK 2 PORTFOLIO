@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+</head>
+<body>
+    <header>
+        <h1>GOKULANANDHAN</h1>
+        <p>Web Developer</p>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        
+        <p>A passionate web developer with experience in HTML, CSS, and JavaScript. I enjoy creating responsive and user-friendly websites.</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>Bootstrap</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+           
+            <p>Description of Project 1.</p>
+            <p>HyperText Markup Language (HTML) is the set of markup symbols or codes inserted into a file intended for display on the Internet. The markup tells web browsers how to display a web page's words and images.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of Project 2.</p>
+            <p>CSS, or Cascading Style Sheets, is a fundamental technology used in web development to control the presentation and layout of HTML documents. However, it is the styling language for web pages, allowing developers to define how web content should appear and be arranged on an audience screen or other display devices.</p>
+        </div>
+    </section>
+    
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my resume <a href="resume.pdf" target="_blank">here</a>.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: gokulanandhan568@gmail.com</p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#about, #skills, #projects, #resume, #contact {
+    padding: 50px 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
