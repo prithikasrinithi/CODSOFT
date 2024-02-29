@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Demo</title>
+    <link rel="stylesheet" href="land.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Demo for Landing Page</h1>
+        <p>Your go-to destination for awesome stuff!</p>
+    </header>
+    
+    <section class="features">
+        <div class="feature">
+            
+            <h2>Feature 1</h2>
+            <p>Description of feature 1 goes here.</p>
+            <p>HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content</p>
+        </div>
+        <div class="feature">
+            
+            <h2>Feature 2</h2>
+            <p>Description of feature 2 goes here.</p>
+            <p>Cascading Style Sheets is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide</p>
+
+        </div>
+        <div class="feature">
+         
+            <h2>Feature 3</h2>
+            <p>Description of feature 3 goes here.</p>
+            <p>Java is a multi-platform, object-oriented, and network-centric language that can be used as a platform in itself. It is a fast, secure, reliable programming language for coding everything from mobile apps and enterprise software to big data applications and server-side technologies.</p>
+        </div>
+    </section>
+    
+    <section class="cta">
+        <h2>Ready to get started?</h2>
+        <button>Sign Up Now</button>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Landing Page Demo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+    width: 30%;
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.cta {
+    text-align: center;
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+function appendToDisplay(value) {
+    document.getElementById('display').value += value;
+  }
+  
+  function clearDisplay() {
+    document.getElementById('display').value = '';
+  }
+  
+  function calculate() {
+    try {
+      const result = eval(document.getElementById('display').value);
+      document.getElementById('display').value = result;
+    } catch (error) {
+      document.getElementById('display').value = 'Error';
+    }
+  }
+  
